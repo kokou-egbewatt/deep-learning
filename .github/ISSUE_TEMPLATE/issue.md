@@ -1,11 +1,3 @@
----
-name: Issue Template
-about: Report bugs, request features, or ask questions about neural network implementations
-title: '[Type]: '
-labels: ''
-assignees: ''
----
-
 ### 📋 Issue Type
 
 Select the type of issue (check one):
@@ -27,6 +19,7 @@ ______________________________________________________________________
 ### 🎯 Context (for Feature Requests)
 
 If requesting a new neural network implementation, describe:
+
 - What algorithm/architecture you'd like to see
 - Why it would be valuable for learning
 - Any specific use cases or applications
@@ -44,10 +37,12 @@ What should happen?
 What actually happens?
 
 **Steps to Reproduce:**
+
 1. Run cell X in [notebook name]
 2. ...
 
 **Error Message:**
+
 ```python
 # Paste error traceback here
 ```
@@ -92,6 +87,7 @@ If you have ideas about how this could be implemented, share them here:
 ```
 
 **References:**
+
 - [ ] Paper/book reference
 - [ ] Online tutorial or resource
 - [ ] Existing implementation to reference
