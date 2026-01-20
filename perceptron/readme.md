@@ -161,7 +161,7 @@ graph LR
 
 ### Linear Separability
 
-Perceptrons can only solve **linearly separable** problems—problems where input vectors can be separated by a single straight line (in 2D) or hyperplane (in higher dimensions).
+Perceptrons can only solve **linearly separable** problems, where input vectors can be separated by a single straight line (in 2D) or hyperplane (in higher dimensions).
 
 ![Training Data Visualization](images/01_training_data.png)
 *Figure: Linearly separable binary classification data. The two classes cluster around (1,1) and (4,4) with a clear decision boundary.*
@@ -170,9 +170,9 @@ Perceptrons can only solve **linearly separable** problems—problems where inpu
     Linearly Separable        NOT Linearly Separable
     (Perceptron works)        (Perceptron fails)
     
-    x    o                     x    o
-    x    o                     o    x
-    x    o    ___line___       x o x o
+        x    o                     x        o
+        x    o                     o        x
+        x    o                     x  o  x  o
 ```
 
 ---
@@ -278,7 +278,7 @@ Initial: $\mathbf{w} = [0, 0]^T$, $b = 0$
 
 The process continues until all training examples are correctly classified.
 
-### Training Visualization
+### Training Visualization for Notebook Example
 
 ![Training Dynamics](images/02_training_dynamics.png)
 *Figure: Six comprehensive visualizations showing how weights, bias, errors, and accuracy evolve during training. The 2×3 grid displays weight 1, weight 2, bias changes, misclassifications per epoch, accuracy progression, and combined error/accuracy view.*
@@ -452,7 +452,7 @@ Multi-class perceptrons create **piecewise linear decision boundaries**:
 - Each pair of classes separated by a linear boundary
 - Overall regions form a Voronoi-like partition
 
-![Decision Boundaries](images/00_piecewise_decesion_boundaries.png)
+![Decision Boundaries](images/00_piecewise_decision_boundaries.png)
 *<br>Figure: Piecewise linear decision boundaries created by multi-class perceptrons.*
 
 ---
